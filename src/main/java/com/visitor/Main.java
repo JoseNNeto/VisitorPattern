@@ -14,6 +14,11 @@ public class Main {
 
         // add Triangle
 
+
+        dot.draw();
+        circle.move(10, 10);
+        rectangle.draw();
+        
         export(circle, dot, rectangle);
     }
 
